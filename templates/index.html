@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>TOPSIS Web Service</title>
+  </head>
+  <body>
+    <h2>TOPSIS Calculator</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+      <label>Upload CSV File:</label><br />
+      <input type="file" name="file" required /><br /><br />
+
+      <label>Weights (comma separated):</label><br />
+      <input type="text" name="weights" required /><br /><br />
+
+      <label>Impacts (comma separated + or -):</label><br />
+      <input type="text" name="impacts" required /><br /><br />
+
+      <label>Email:</label><br />
+      <input type="email" name="email" required /><br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
